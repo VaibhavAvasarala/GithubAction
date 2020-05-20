@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: actions/hello-world-javascript-action@v1
+      uses: VaibhavAvasarala/GithubAction@master
       with:
         who-to-greet: 'Vaibhav Avasarala'
     # Use the output from the `hello` step
